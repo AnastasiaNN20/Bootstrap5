@@ -1,18 +1,14 @@
-
-$primary: #c29938;
-
+$primary: #00907f;
+$zindex-offcanvas: 1095;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
-
 $custom-theme-colors: (
   "altlight": #f2ebfa,
-  "altdark": #522192
+  "altdark": #522192,
 );
-
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
-
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
